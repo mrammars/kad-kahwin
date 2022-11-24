@@ -41,12 +41,14 @@
 </style>
 
 <body class="no-scrollbar">
-    <div class="max-h-screen h-screen lg:p-10">
+    <div class="max-h-screen h-screen lg:p-10 2xl:hidden">
         <div class="lg:grid lg:grid-cols-2 h-full w-full">
             <div class="lg:col-span-1 h-full w-full">
                 
-                <div class="flex justify-center relative w-full h-screen md:h-full">
+                <div class="flex justify-center relative w-full h-screen md:h-full lg:border-2 lg:border-gray-400">
                     <!-- <img class="bg-no-repeat bg-cover bg-local md:bg-contain bg-center w-full md:max-w-md max-h-full" src="asset/alternate-bg.png" alt="background-image"> -->
+                    <!-- <div class="absolute border-2 p-10 border-black"></div> -->
+                    
                     <div class="top-0 right-0 absolute">
                         <img class="w-40 h-40 md:w-80 md:h-80 lg:w-60 lg:h-60" src="asset/right-top.png" alt="">
                     </div>
@@ -88,35 +90,42 @@
                         <img class="w-40 h-40 md:w-80 md:h-80 lg:w-60 lg:h-60" src="asset/right-top.png" alt="">
                     </div>
                     
-                    <div class="text-[#cc0000] text-center cinzel absolute">
+                    <div class="text-center cinzel absolute">
+                        <div class="hidden md:block md:pt-40 lg:pt-36 px-20 md:px-0 text-xs md:text-sm ">
+                            Assalamu'alaikum Warahmatullahi Wabarakatuh. <br>
+                            Kami menjemput Tuan/Puan/Saudara/Saudari <br> 
+                            pada acara pernikahan kami
+                        </div>
 
-                        <!-- <div class="">
-                            Assalamu'alaikum Warahmatullahi Wabarakatuh.
-                            Dengan memohon rahmat dan ridha Allah swt,
-                            kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara pernikahan kami
-                        </div> -->
+                        <div class="block md:hidden pt-28 text-xs">
+                            Dengan segala hormatnya <br> 
+                            Kami menjemput Tuan/Puan  <br> 
+                            ke Majlis Perkahwinan kami
+                        </div>
 
-                        <div class="pt-32 md:pt-40 text-7xl md:text-8xl love-light">
+                        <div class="pt-8 md:pt-20 lg:pt-8 text-6xl md:text-7xl lg:text-6xl text-[#cc0000] wedding-font">
                             <div>Ammar</div>
-                            <div class="text-2xl md:text-4xl cinzel">&</div>
+                            <div class="text-2xl md:text-4xl">&</div>
                             <div>Arina</div>
                         </div>
 
-                        <div id="date" class="pt-6 md:pt-2">
-                            <div>FRIDAY</div>
-                            <div>
-                                <span class="underline">MAC</span>
-                                <span>10</span>
-                                <span class="underline">2023</span>
+                        <div id="date" class="pt-20 md:pt-20 lg:pt-16">
+                            <div class="text-xs font-semibold">JUMAAT</div>
+                            <div class="space-x-2 flex items-center justify-center">
+                                <span class="border-t border-b border-gray-400">MAC</span>
+                                <span class="text-4xl">10</span>
+                                <span class="border-t border-b border-gray-400">2023</span>
                             </div>
                         </div>
             
-                        <div id="address" class="pt-8 md:pt-4">
-                            <div>
-                                No 499, Jalan Kempas 2/2a,
-                            </div>
-                            <div>Taman Kempas, Sungai Petani, </div>
-                            Kedah
+                        <div id="address" class="pt-20 md:pt-24 lg:pt-16 text-xs md:text-base">
+                            No 499, Jalan Kempas 2/2a, <br>
+                            Taman Kempas, Sungai Petani, <br>
+                            08000 Kedah
+                        </div>
+
+                        <div class="pt-10 md:pt-24 lg:pt-16">
+                            <button class="px-3 py-1.5 bg-red-200 rounded-sm text-xs md:text-base" onclick="location.href='https://goo.gl/maps/8f3z4fkwBGBFGiYz5'" target="_blank" >location</button>
                         </div>
                     </div>
 
